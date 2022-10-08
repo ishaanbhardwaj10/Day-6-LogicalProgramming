@@ -10,6 +10,7 @@
             Console.WriteLine("Program #3: Prime Numbers");
             Console.WriteLine("Program #4: Reverse A Number");
             Console.WriteLine("Program #5: Coupon Numbers");
+            Console.WriteLine("Program #6: Stopwatch Simulator");
 
             Console.Write("Please select a program to run from options above: ");
             int choice = Convert.ToInt32(Console.ReadLine());
