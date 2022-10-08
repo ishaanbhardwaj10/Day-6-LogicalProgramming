@@ -8,6 +8,7 @@
             Console.WriteLine("Program #1: Fibonacci Series");
             Console.WriteLine("Program #2: Perfect Numbers");
             Console.WriteLine("Program #3: Prime Numbers");
+            Console.WriteLine("Program #4: Reverse A Number");
 
             Console.Write("Please select a program to run from options above: ");
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -22,6 +23,9 @@
                     break;
                 case 3:
                     PrimeNumber.CheckPrimeNumbers();
+                    break;
+                case 4:
+                    ReverseNumber.Reverse();
                     break;
                 default:
                     Console.WriteLine("Please enter a valid number from given options");
